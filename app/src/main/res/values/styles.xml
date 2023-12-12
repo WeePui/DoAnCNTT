@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyseekBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:progressBackgroundTint">#f4511e</item>
+        <item name="android:progressTint">#388e3c</item>
+        <item name="android:thumbTint">#c51162</item>
+        <item name="colorAccent">#F900FF</item></style>
+</resources>

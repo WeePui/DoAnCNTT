@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/MenuContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="49dp">
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/MainPlayerLayoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="49dp"
+        android:background="@color/white">
+    </FrameLayout>
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/miniPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="49dp"
+        android:background="@drawable/round_edged_miniplayer"
+        android:paddingLeft="2dp">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            android:layout_margin="5dp"
+            android:elevation="10dp">
+            <ImageView
+                android:id="@+id/img_song"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:layout_toStartOf="@id/play"
+            android:layout_toEndOf="@id/cardview"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewTittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/textViewSinger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                android:textSize="11sp">
+            </TextView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@id/close"
+            app:tint="@color/white"
+            android:src="@drawable/play_arrow_48px">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            app:tint="@color/white"
+            android:layout_centerVertical="true"
+            android:src="@drawable/close_48px">
+        </ImageView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomNaviBar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/black"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            app:tint="@color/white"
+            android:layout_gravity="center"
+            android:src="@drawable/home_48px">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/music"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            app:tint="@color/white"
+            android:layout_gravity="center"
+            android:src="@drawable/library_music_48px">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/search_48px"
+            app:tint="@color/white">
+        </ImageView>
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            app:tint="@color/white"
+            android:layout_gravity="center"
+            android:src="@drawable/settings_48px">
+        </ImageView>
+
+    </LinearLayout>
+</RelativeLayout>

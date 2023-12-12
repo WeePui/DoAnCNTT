@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.fragment_upload"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+        <Button
+            android:id="@+id/songBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn file MP3"
+            android:layout_marginTop= "45dp"/>
+
+        <TextView
+            android:id="@+id/fileName"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="380dp"
+            android:layout_height="380dp"
+            android:layout_marginTop="150dp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/progessbar"
+            android:layout_marginBottom="-94dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+
+        <ProgressBar
+            android:id="@+id/progessbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_below="@id/imgView"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+        <Button
+            android:id="@+id/uploadBTN"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/progessbar"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:text="Tải lên" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

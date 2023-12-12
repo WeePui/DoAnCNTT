@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragment.SongAdapter">
+    <item
+        android:id="@+id/lib_listen"
+        android:title="Nghe"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/lib_delete"
+        android:title="Xoá"
+        app:showAsAction="never" />
+</menu>

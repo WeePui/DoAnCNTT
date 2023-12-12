@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "166554575962",
+    "firebase_url": "https://musicplayerapp-42069-default-rtdb.firebaseio.com",
+    "project_id": "musicplayerapp-42069",
+    "storage_bucket": "musicplayerapp-42069.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166554575962:android:d7c200cd5138036034e463",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166554575962-l672ohm469auvtuidlnpvji457oil3d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPc4jamPqPsl7fUwNz9KXQ3-J6dPMycyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166554575962-4hb4lflfr036qnp33cbvlmk5h85ih4q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166554575962:android:6c2148fd511681e934e463",
+        "android_client_info": {
+          "package_name": "com.example.rizzplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166554575962-l672ohm469auvtuidlnpvji457oil3d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPc4jamPqPsl7fUwNz9KXQ3-J6dPMycyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166554575962-4hb4lflfr036qnp33cbvlmk5h85ih4q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166554575962:android:822dc888cdb28ea634e463",
+        "android_client_info": {
+          "package_name": "hcmute.edu.vn.mymusicplayer_01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166554575962-l672ohm469auvtuidlnpvji457oil3d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPc4jamPqPsl7fUwNz9KXQ3-J6dPMycyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166554575962-4hb4lflfr036qnp33cbvlmk5h85ih4q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
